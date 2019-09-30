@@ -1,4 +1,65 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Robin Rheem"
 theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "Software Engineer"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  [params.logo]
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/RobinRheem/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:robin.rheem@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/RobinRheem/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/robinrheem/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
