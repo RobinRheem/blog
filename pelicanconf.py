@@ -3,8 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Robin Rheem'
-SITENAME = 'Blog'
+SITENAME = 'Robin Rheem'
 SITEURL = ''
+SITESUBTITLE = 'Software Engineer'
+
+THEME = 'pelican-clean-blog'
 
 PATH = 'content'
 
@@ -26,10 +29,17 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('GitHub', 'https://github.com/RobinRheem/'),
+    ('Twitter', 'https://twitter.com/RobinRheem/'),
+    ('LinkedIn', 'https://www.linkedin.com/in/robinrheem/'),
+)
 
 DEFAULT_PAGINATION = 10
 
+# clean-blog
+HEADER_COVER = 'images/cover.jpg'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
