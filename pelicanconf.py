@@ -46,7 +46,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # clean-blog
-HEADER_COVER = 'images/cover.jpg'
+HEADER_COLOR = 'black'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
