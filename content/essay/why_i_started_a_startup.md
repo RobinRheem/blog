@@ -1,6 +1,6 @@
 Title: Why I Started a Startup
-Date: 2019-11-20 10:20
-Modified: 2019-11-20 19:30
+Date: 2019-11-20 10:44
+Modified: 2019-11-20 10:44
 Category: essay
 Tags: startup
 Slug: why-i-started-a-startup
