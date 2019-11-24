@@ -1,6 +1,6 @@
 Title: Getting Ideas
-Date: 2019-11-20 10:44
-Modified: 2019-11-20 10:44
+Date: 2019-11-24 18:38
+Modified: 2019-11-24 18:38
 Category: essay
 Tags: startup
 Slug: getting-ideas
