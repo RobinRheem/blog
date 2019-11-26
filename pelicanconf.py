@@ -23,6 +23,16 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
+PLUGIN_PATHS = ['pelican-plugins']
+
+PLUGINS = ['pelican-ipynb.markup']
+
+MARKUP = ('md', 'ipynb')
+
+IGNORE_FILES = [".ipynb_checkpoints"]
+
+IPYNB_USE_METACELL = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
