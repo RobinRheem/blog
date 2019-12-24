@@ -15,10 +15,16 @@ TIMEZONE = 'Asia/Seoul'
 
 DEFAULT_LANG = 'en'
 
+MENUITEMS = (
+    ('Essays', '/category/essay.html'),
+    ('Analyses', '/category/analysis.html'),
+)
+
 STATIC_PATHS = [
     'images',
     'extra',
 ]
+
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
