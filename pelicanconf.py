@@ -39,13 +39,6 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 
 IPYNB_USE_METACELL = True
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
 # Social widget
 SOCIAL = (
     ('GitHub', 'https://github.com/RobinRheem/'),
